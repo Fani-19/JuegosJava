@@ -1,5 +1,8 @@
 package com.company;
 
+import org.omg.CORBA.portable.ValueOutputStream;
+import sun.reflect.generics.tree.VoidDescriptor;
+
 public class JuegoAdivinaPar extends JuegoAdivinaNumero{
     public JuegoAdivinaPar(int vidas, int num) {
         super(vidas, num);
@@ -13,5 +16,12 @@ public class JuegoAdivinaPar extends JuegoAdivinaNumero{
             System.out.println("Error");
             return false;
         }
+    }
+    public void muestraNombre(){
+        System.out.println("Juego Adivina número par");
+    }
+    public void muestraInfo() {
+        System.out.println("Introduce numeros pares del uno al 10 hasta que aciertes o pierdas todas las vidas, si fallas te daran la pista de si es mayor o menor. Suerte!!");
+        this.MuestraVidasRestantes();
     }
 }
