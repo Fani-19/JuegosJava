@@ -1,9 +1,8 @@
-package com.company;
+package com.company.Numeros;
 
-import org.omg.CORBA.portable.ValueOutputStream;
-import sun.reflect.generics.tree.VoidDescriptor;
+import com.company.Numeros.JuegoAdivinaNumero;
 
-public class JuegoAdivinaPar extends JuegoAdivinaNumero{
+public class JuegoAdivinaPar extends JuegoAdivinaNumero {
     public JuegoAdivinaPar(int vidas, int num) {
         super(vidas, num);
     }

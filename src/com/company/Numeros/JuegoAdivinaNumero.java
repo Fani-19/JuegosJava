@@ -1,4 +1,7 @@
-package com.company;
+package com.company.Numeros;
+
+import com.company.Interface.Jugable;
+import com.company.Juego;
 
 import java.util.Scanner;
 
